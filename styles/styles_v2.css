@@ -163,6 +163,33 @@ p {
 
 .signal p {
   padding-left: var(--space-medium); /* Align text with section name */
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+.signal__content ul {
+  padding-left: var(--space-medium);
+  margin-top: var(--space-small);
+}
+
+.signal__content ul > li {
+  margin-bottom: var(--space-medium);
+  font-size: 1.15em;
+  color: inherit;
+}
+
+.signal__content ul > li > strong {
+  font-weight: 700;
+  color: inherit;
+}
+
+.signal__content ul > li p {
+  padding-left: 0;
+  font-size: 0.85em;
+  color: inherit;
+  margin-top: 0.25em;
+  margin-bottom: 0.5em;
+  line-height: 1.55;
 }
 
 body.index-page .signal__header dd {
